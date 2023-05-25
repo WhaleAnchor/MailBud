@@ -21,13 +21,13 @@ import {
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBDF3BbSzPjfYasiIKlajC6wtzOvWKBCTI",
-  authDomain: "box-choy-4524d.firebaseapp.com",
-  projectId: "box-choy-4524d",
-  storageBucket: "box-choy-4524d.appspot.com",
-  messagingSenderId: "480450845094",
-  appId: "1:480450845094:web:11096fdbf08103ebc75767",
-  measurementId: "G-RSHDBYGWJB"
+  apiKey: "AIzaSyBN8oXDA4_BzlHfKFqFWoQf7g7f6KIZuo0",
+  authDomain: "mailbud-bd5fa.firebaseapp.com",
+  projectId: "mailbud-bd5fa",
+  storageBucket: "mailbud-bd5fa.appspot.com",
+  messagingSenderId: "633191131703",
+  appId: "1:633191131703:web:ad1e1f23bbcecc3cc4edb2",
+  measurementId: "G-NVRMFDTSWB"
 };
 
 // Initialize Firebase
