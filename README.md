@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+MailBud implementation ideas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+User story:
+1. User Registration and Login
+    * As a new user, I want to be able to register for a new account so I can start using the app.
+    * As a registered user, I want to log into my account to access my mailbox and settings.
+2. Message Management
+    * As a user, I want to send messages to my customers so I can keep them informed about new updates or packages.
+    * As a user, I want to schedule messages to be sent at a specific time so that I can plan my communications in advance.
+    * As a user, I want to search and filter my messages so I can easily find specific information.
+3. Notification Management
+    * As a user, I want to receive notifications when I receive a new message or package so that I can stay up-to-date on my mail status.
+4. Personalization and Customization
+    * As a user, I want to customize my interface so I can have a personalized user experience.
+    * As a user, I want to organize my mailbox and create custom labels for my messages to keep things organized.
+5. Priority Inbox
+    * As a user, I want my important messages to be highlighted so I can easily see and respond to them.
+6. Integration with Other Platforms
+    * As a user, I want to integrate the app with my preferred productivity tools to streamline my workflow.
+7. Multiple Account Management
+    * As a user with multiple mailboxes, I want to manage all my accounts from one place to save time and effort.
+8. Spam Protection
+    * As a user, I want to have a spam protection system to keep my inbox clean and safe.
+9. Analytics
+    * As a business user, I want to view analytics about my email usage and activity so I can track and improve my communication effectiveness.
+10. Mobile App
+    * As a user, I want to have a mobile app so I can manage my mailboxes while on the go.
+These are just starting points and can be expanded upon as needed. Remember, user stories are not set in stone and should evolve as you understand more about your users and their needs.
 
-## Available Scripts
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MVP:
+1. User Registration and Login: Users should be able to create an account, log in, and manage their accounts.
+2. Mailbox Management: Users should be able to own mailboxes and manage their mailbox(es) – this includes viewing, sorting, and deleting emails.
+3. Sending Messages: Users should be able to send messages (email or text) to their list of customers. This is the main function of your app, so it needs to be in the MVP.
+4. Notifications: Notify users when they have a new message or when a message they've sent has been read.
+5. Basic Search and Filter: Users should be able to search their inbox and filter messages based on some basic parameters like date and sender.
+6. Basic Spam Protection: Implement a simple spam filtering system to keep user inboxes clean and safe.
