@@ -7,9 +7,15 @@ import Reset from './components/Reset';
 
 function App() {
   return (
-    <div className="App">
-      <h1>hi</h1>
-    </div>
+    <Router>
+      <Routes>
+        <>
+          <Route exact path="/" element={<Login />} />
+          <Route exact path="/register" element={<Register />} />
+          <Route exact path="/reset" element={<Reset />} />
+        </>
+        </Routes>
+    </Router>
   );
 }
 
