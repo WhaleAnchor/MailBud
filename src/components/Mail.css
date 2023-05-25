@@ -1,0 +1,34 @@
+.mail-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 20px; /* Space between mailboxes */
+    padding: 20px; /* Space around the grid */
+    /* ... other styles ... */
+  }
+  
+  .mailbox {
+    display: flex;
+    background-color: rgb(246, 223, 164);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 4px;
+  }
+  
+  .mailbox-number {
+    font-family: 'Great Vibes';
+    background-color: white;
+    border: 2px solid #000;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
+    min-width: 60px; /* Adjust this as necessary */
+    text-align: center;
+  }
+  
+  .mailbox-icon {
+    /* ... styles for the envelope icon ... */
+  }
+  

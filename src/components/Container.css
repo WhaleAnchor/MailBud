@@ -19,9 +19,16 @@
     right: 20px;
     z-index: 1;
     border-radius: 20px;
-    box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.1);
-    background: rgb(243, 235, 221);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background: rgb(250, 245, 235);
     overflow-y: auto; /* Makes the content inside the Container scrollable */
     padding: 20px; /* Adds some space around your content */
-  }
   
+    /* For Firefox */
+    scrollbar-width: none;
+}
+
+/* For Chrome, Safari and Edge */
+.main-content::-webkit-scrollbar {
+    display: none;
+}
