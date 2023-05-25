@@ -1,15 +1,15 @@
 .navbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    box-sizing: border-box; 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #f8f9fa;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  box-sizing: border-box; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #d9e8f7;
 }
 
 .navbar .logo {
@@ -28,8 +28,8 @@
 
 .nav-links {
   display: flex;
-  gap: 20px;
   padding:10px;
+  gap: 1px;
 }
 
 .nav-links a {
@@ -37,6 +37,18 @@
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-bottom: none; /* remove bottom border to create tab effect */
+  border-radius: 10px 10px 0 0; /* round the top corners */
+  width: 120px; /* fixed width */
+  text-align: center; /* center the text */
+}
+
+
+.nav-links .active-tab {
+  border-bottom: 2px solid #f8f9fa; /* same color as navbar background */
+  background: rgb(250, 245, 235); /* or another color to indicate the active tab */
 }
 
 .nav-links a:hover {
